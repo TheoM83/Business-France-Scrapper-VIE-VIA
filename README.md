@@ -1,4 +1,4 @@
-# Business-France_VIE_Scrapper 🌍
+# Business-France Scrapper VIE/VIA 🌍
 Créez un fichier HTML facile à rechercher référençant toutes les offres VIE/VIA actuelles.
 
 ## Description
