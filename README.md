@@ -1,42 +1,39 @@
-# Business-France_VIE_Scrapper
- Create an html file that can be easely searched referencing all actual VIE/VIA offers
+# Business-France_VIE_Scrapper 🌍
+Créez un fichier HTML facile à rechercher référençant toutes les offres VIE/VIA actuelles.
 
 ## Description
-This Python script, vie.py, is designed to perform a specific task related to processing job offers. It serves the purpose of extracting data from an HTML file containing job offers and presenting it in a readable format.
+Ce script Python, `vie.py`, est conçu pour réaliser une tâche spécifique liée au traitement des offres de VIE/VIA. Il extrait les données du site et génère un fichier HTML contenant toutes les offres facilement triables.
 
 ## Installation
-Before running the script, ensure you have Python installed on your system. Additionally, make sure to install the required dependencies using pip:
+Avant de lancer le script, assurez-vous que Python est installé sur votre système. De plus, veillez à installer les dépendances nécessaires en utilisant pip :
 
 ```pip install -r requirements.txt```
 
-## Usage
-To launch the application, execute the following command in your terminal or command prompt:
+## Utilisation
+Pour lancer l'application, exécutez la commande suivante dans votre terminal ou invite de commande :
 
 ```python .\vie.py -h       
 usage: vie.py [-h] total_offers output_file
 
-Script to retrieve offers from an API and save them to a CSV or HTML     
-file.
+Script pour récupérer les offres d'une API et les sauvegarder dans un fichier CSV ou HTML.
 
-positional arguments:
-  total_offers  Total number of offers to retrieve
-  output_file   Output file name (with extension)
+arguments positionnels :
+  total_offers  Nombre total d'offres à récupérer
+  output_file   Nom du fichier de sortie (avec extension)
 
-options:
-  -h, --help    show this help message and exit
+options :
+  -h, --help    afficher ce message d'aide et quitter
 ```
 
-## Example
-```
-python vie.py 3000 offres.html
-```
-This command will scrap Business France website to display the 3000 last VIE/VIA offers.
+## Exemple
+```python vie.py 3000 offres.html```
+Cette commande va scraper le site de Business France pour afficher les 3000 dernières offres VIE/VIA.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Licence
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-## Contributing
-Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or bug fixes.
+## Contribuer
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre des pull requests ou à ouvrir des issues pour toute amélioration ou correction de bugs.
 
-## Disclaimer
-This script is provided as is, without any warranty. Use it at your own risk.
+## Avertissement
+Ce script est fourni tel quel, sans aucune garantie. Utilisez-le à vos propres risques.
